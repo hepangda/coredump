@@ -4,10 +4,10 @@
 #include <cstdio>
 #include <cstdarg>
 
-#define CLR_SUCCEED "\033[32m"
 #define CLR_FAILED  "\033[31m"
-#define CLR_MESSAGE "\033[34m"
+#define CLR_SUCCEED "\033[32m"
 #define CLR_TITLE   "\033[33m"
+#define CLR_MESSAGE "\033[34m"
 #define CLR_UNSET   "\033[0m"
 
 inline void clrprintf(const char *clr, const char *format, ...) {
